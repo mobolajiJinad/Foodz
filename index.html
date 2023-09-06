@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodz</title>
+
+    <link rel="stylesheet" href="./public/css/style.css" />
+  </head>
+
+  <body>
+    <section class="hero">
+      <header>
+        <img src="./images/Logo.png" alt="Foodz logo" class="logo" />
+
+        <nav class="menu">
+          <a href="#" class="menu active">home</a>
+          <a href="#" class="menu">menu</a>
+          <a href="#" class="menu">blog</a>
+          <a href="#" class="menu">contact</a>
+
+          <button class="BTN">order now</button>
+        </nav>
+      </header>
+
+      <div class="lower_hero">
+        <div class="left">
+          <div class="upper_left">
+            <div class="tagline">
+              <div class="tag">
+                <h1>you've got questions</h1>
+                <h2>we've got taste</h2>
+              </div>
+
+              <p>
+                Explore your Taste with speacial food in the special place. This
+                text don't have any meaning
+              </p>
+            </div>
+
+            <div class="cta">
+              <button class="BTN">order now</button>
+
+              <a href="#">Explore menu</a>
+            </div>
+          </div>
+
+          <div class="lower_left">
+            <div class="plus9">
+              <p>9+</p>
+              <p>years of service.</p>
+            </div>
+            <div class="line115"></div>
+            <div class="plus120">
+              <p>120+</p>
+              <p>in the world.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+          <img
+            src="./images/Bibimbap.png"
+            alt="A food image"
+            class="bibimbap"
+          />
+
+          <img
+            src="./images/Chopstick.png"
+            alt="a chopstick image"
+            class="chopstick"
+          />
+
+          <img src="./images/LeftBG.png" alt="" class="greenBG" />
+        </div>
+      </div>
+    </section>
+
+    <section class="special_offer">
+      <div class="title">
+        <h2>Today <span> special</span> offers</h2>
+        <p>
+          Best cooks and best delivery guys all at your service. Hot tasty food
+          will reach you in 60 minutes.
+        </p>
+      </div>
+
+      <div class="menu_list_container">
+        <div class="menu_lists" id="card_container"></div>
+
+        <div class="arrows">
+          <img src="./images/LeftArrow.png" alt="Go prev image" id="prevBtn" />
+          <img src="./images/RightArrow.png" alt="Go next image" id="nextBtn" />
+        </div>
+      </div>
+    </section>
+
+    <section class="info">
+      <h2 class="info_title">19 Michellin <span>chef</span> stars</h2>
+
+      <div class="lower_info">
+        <img src="./images/Info.png" alt="A chef" />
+
+        <div class="right">
+          <div class="right_title">
+            <h4>Alain Ducasse - 19 Michelin Stars</h4>
+            <a href="#">View All Restaurant &#8594;</a>
+          </div>
+
+          <p>
+            Considered by many to be one of the best chefs in the world, he's
+            built a business empire over the years with 36 restaurants spanning
+            across the globe. He's also one of only two chefs to hold 21
+            Michelin stars throughout his career and the first chef to own
+            restaurants carrying three Michelin Stars in three cities. <br />
+            <br />
+            In addition to being known for world-class French cuisine, Ducasse
+            is the only chef on this list who has sent his food into space. In
+            2015, Ducasse sent meals to astronauts orbiting Earth aboard the
+            International Space Station, an accomplishment that Ducasse said he
+            viewed as conquering 'the final frontier (of cooking)'.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="deli">
+      <h2>How we keep your meal <span>Delicious</span></h2>
+
+      <div class="deli_items">
+        <div class="item">
+          <img src="./images/Receive.png" alt="" />
+
+          <h5>receive the order</h5>
+          <p>
+            That help us know what delicious meal you will try, but I don't
+            write anything
+          </p>
+        </div>
+
+        <div class="item middle">
+          <img src="./images/Prepare.png" alt="" />
+
+          <h5>prepare your meal</h5>
+          <p>
+            That help us know what delicious meal you will try, but I don't
+            write anything
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="./images/Deliver.png" alt="" />
+
+          <h5>deliver your meal</h5>
+          <p>
+            That help us know what delicious meal you will try, but I don't
+            write anything
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="form">
+      <div class="title">
+        <h2>get the best taste <span>now &excl;</span></h2>
+        <p>
+          Best cooks and best delivery guys all at your service. Hot tasty food
+          will reach you in 60 minutes.
+        </p>
+      </div>
+
+      <form action="#" method="post">
+        <div class="taste">
+          <label for="taste">Select your meal<a href="#">View menu</a></label>
+          <select name="taste" id="taste" required>
+            <option value="" disabled selected hidden>
+              What's your taste?
+            </option>
+            <option value="kimchi">Kimchi</option>
+            <option value="KoreaBBQ">Korea BBQ</option>
+            <option value="Gimbap">Gimbap</option>
+          </select>
+        </div>
+
+        <span class="taste1">Add 1 taste &plus;</span>
+
+        <div class="secondRow">
+          <div class="right">
+            <label for="name">Order name</label>
+            <input type="text" name="name" id="name" placeholder="Your name" />
+          </div>
+
+          <div class="left">
+            <label for="phoneNumber">Phone Number</label>
+            <input
+              type="tel"
+              name="phoneNumber"
+              id="phoneNumber"
+              placeholder="(+234 3047 4323 13)"
+            />
+          </div>
+        </div>
+
+        <label for="address">Your address</label>
+        <input
+          type="text"
+          name="address"
+          id="address"
+          placeholder="12 ABD Street"
+        />
+
+        <label for="payment">Payment Method</label>
+        <select name="payment" id="payment">
+          <option value="I'll pay with card">I'll pay with card</option>
+          <option value="I'll pay cash">I'll pay cash</option>
+          <option value="I'll pay with card">
+            I'll pay with bank transfer
+          </option>
+        </select>
+
+        <label for="note">Note for us</label>
+        <textarea
+          name="note"
+          id="note"
+          cols="30"
+          rows="10"
+          placeholder="More spicy, more sauce, ..."
+        ></textarea>
+
+        <p class="pay">You will pay <span>&dollar;12</span></p>
+
+        <button>Order Now</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="first">
+        <img src="./images/Logo.png" alt="" />
+        <p>
+          Explore your Taste with speacial food in the special place, that will
+          make you happy. I try to write some thing without lorem isum.
+        </p>
+      </div>
+
+      <div class="links">
+        <h5>support</h5>
+        <li>
+          <ul>
+            <a href="#">help center</a>
+          </ul>
+          <ul>
+            <a href="#">safety information</a>
+          </ul>
+          <ul>
+            <a href="#">cancellation options</a>
+          </ul>
+          <ul>
+            <a href="#">report complaint</a>
+          </ul>
+        </li>
+      </div>
+
+      <div class="links">
+        <h5>community</h5>
+        <li>
+          <ul>
+            <a href="#">customer review</a>
+          </ul>
+          <ul>
+            <a href="#">newsletter</a>
+          </ul>
+        </li>
+      </div>
+
+      <div class="links">
+        <h5>about</h5>
+        <li>
+          <ul>
+            <a href="#">our chef</a>
+          </ul>
+          <ul>
+            <a href="#">careers</a>
+          </ul>
+          <ul>
+            <a href="#">blogs</a>
+          </ul>
+          <ul>
+            <a href="#">contacts</a>
+          </ul>
+        </li>
+      </div>
+    </footer>
+
+    <script src="./public/js/cards.js"></script>
+    <script src="./public/js/script.js"></script>
+  </body>
+</html>
