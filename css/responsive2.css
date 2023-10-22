@@ -1,0 +1,181 @@
+@media screen and (min-width: 280px) and (max-width: 450px) {
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  header {
+    padding: 1rem 1rem;
+  }
+
+  .menu {
+    position: absolute;
+    top: -500px;
+    z-index: 999;
+  }
+
+  .hamburgerMenu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .lower_hero {
+    width: 100%;
+    margin-top: 0rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .lower_hero .left {
+    padding-left: 0.5rem;
+  }
+
+  .lower_hero .left {
+    width: 100%;
+  }
+
+  .lower_hero .left .lower_left {
+    width: 100%;
+  }
+
+  .tag h1 {
+    font-size: 2.125rem;
+  }
+
+  .tag h2 {
+    font-size: 2rem;
+  }
+
+  .tagline p {
+    margin-bottom: 0.75rem;
+    margin-right: 0.25rem;
+    font-size: 1.125rem;
+  }
+
+  .cta {
+    width: 100%;
+    padding: 0.25rem 2.5rem;
+  }
+
+  .cta .BTN {
+    font-size: 1rem;
+  }
+
+  .cta a {
+    font-size: 1.5rem;
+  }
+
+  .lower_left {
+    padding-left: 0;
+  }
+
+  .lower_hero .right {
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .right .bibimbap {
+    left: 9%;
+  }
+
+  .special_offer {
+    margin-top: 375px;
+  }
+
+  .menu_lists {
+    margin-top: 0;
+  }
+
+  .menu_lists .card {
+    width: 85%;
+  }
+
+  .info {
+    padding: 0 0.125rem;
+  }
+
+  .info .lower_info {
+    width: 100%;
+    padding: 0.75rem 0.75rem;
+    margin-top: 1.75rem;
+    flex-direction: column;
+  }
+
+  .info .lower_info .right {
+    width: 100%;
+  }
+
+  .info .lower_info .right .right_title {
+    flex-direction: column;
+  }
+
+  .lower_info .right .right_title h4 {
+    font-size: 1.25rem;
+  }
+
+  .lower_info .right .right_title a {
+    margin-top: 0.25rem;
+    font-size: 1.125rem;
+  }
+
+  .deli .deli_items {
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .deli_items .item {
+    width: 100%;
+  }
+
+  .item h5 {
+    font-size: 1.75rem;
+  }
+
+  .item p {
+    font-size: 1rem;
+  }
+
+  .title h2 {
+    font-size: 1.75rem;
+    margin: 0.25rem 0;
+  }
+
+  .form form {
+    width: 95%;
+    margin: auto;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 2rem 0.75rem;
+  }
+
+  footer > * {
+    width: 100%;
+  }
+
+  footer .first {
+    width: 100% !important;
+  }
+
+  .first p {
+    text-align: left;
+    font-size: 1.125rem;
+  }
+
+  footer .links {
+    margin-top: 1.5rem;
+    text-align: left;
+  }
+
+  .links h5 {
+    font-size: 1.5rem;
+  }
+
+  .links ul {
+    font-size: 1rem;
+  }
+}
